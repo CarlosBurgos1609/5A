@@ -1,0 +1,99 @@
+input:checked~label ::after {
+    left: 430px;
+    transform: translateX(-100);
+    background: #777ba5;
+
+}
+
+input:checked~label::before {
+    left: 440px;
+    border: 18px solid rgba(90, 79, 136, 0.2);
+    transform: translateX(-100%);
+}
+
+input:checked~label {
+    background: url('img/logo1.png');
+    background-size: cover;
+    background-position: center;
+    border: 18xp solid rgba(90, 79, 136, 0.2);
+}
+
+.btn-a {
+    display: inline-block;
+    margin: 30px 0xp;
+    font-size: 20xp;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #777ba5;
+    padding: 20xp 35xp;
+
+}
+
+.btn-neon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    z-index: -1;
+    border-radius: .6em;
+    background-color: var(--glow-color);
+    transition: opacity 100ms linear;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: #031321;
+    font-family: consolas;
+
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    Letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+a sanp {
+    position: absolute;
+    display: block;
+}
+
+a span:nth-child(1) {
+    top: 0;
+    Left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient (90deg, transparent, #2196f3);
+}
+
+a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+
+a span:nth-child(3) {
+    bottom:  0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient (270deg, transparent, #2196f3);
+}
+
+a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
