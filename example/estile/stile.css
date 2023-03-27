@@ -82,7 +82,7 @@ a:hover {
     transition-delay: 0.4s;
 }
 
-
+/*
 a span:nth-child(1) {
     top: 0;
     Left: -100%;
@@ -146,6 +146,7 @@ a:hover span:nth-child(4) {
     transition: 1s;
     transition-delay: 0.75s;
 }
+*/
 
 input {
     position: relative;
