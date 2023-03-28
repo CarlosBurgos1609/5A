@@ -11,28 +11,35 @@
 </head>
 
 <body bgcolor="black">
-    <font color="#FFFFFF">
-        <center>
-            <h2>Register a new user</h2><br><br><br>
-            <input type="text" placeholder="FirstName"><br><br>
-            <input type="text" placeholder="las name"><br><br>
-            <input type="number" placeholder="mobile number"><br><br>
-            <input type="email" class="input_email" placeholder="Example@gmail.com" required><br><br>
-            <input type="password" placeholder="password"><br><br>
-            <select name="pais">
-                <option>Seleccione su país</option>
-                <option>Amsterdam</option>
-                <option>Colombia</option>
-                <option>Japon</option>
-                <option>London</option>
-                <option>Nigeria</option>
-                <option>venetsia</option>
-                <option>Japon</option>
-            </select><br><br>
-            <a href="login_form.html">registrar</a>
-            <!--target="_blank"-->
-        </center>
-    </font>
+
+    <div >
+        <form name="Register" action="inbox.html" method="post">
+            <font color="#18171c">
+                <center>
+                    <h1>Register</h1><br><br><br>
+                    <input type="text" placeholder="FirstName" required><br><br>
+                    <input type="text" placeholder="las name" required><br><br>
+                    <input type="number" placeholder="mobile number"><br><br>
+                    <input type="email" class="input_email" placeholder="Example@gmail.com" required><br><br>
+                    <input type="password" placeholder="password" required><br><br>
+                    <select name="pais" class="select" required>
+                        <option>Seleccione su país</option>
+                        <option>Amsterdam</option>
+                        <option>Colombia</option>
+                        <option>Japon</option>
+                        <option>London</option>
+                        <option>Nigeria</option>
+                        <option>venetsia</option>
+                        <option>Japon</option>
+                    </select><br><br>
+                    <p>acepata los terminos y condiciones?&nbsp;&nbsp;<input type="radio" required></p>
+                    <input type="submit" value="REGISTER" class="input-submit" required><br><br>
+                    <!--target="_blank"-->
+                </center>
+            </font>
+        </form>
+
+    </div>
 </body>
 
 </html>
