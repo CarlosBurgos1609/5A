@@ -127,7 +127,8 @@ form {
 }
 form *{
     font-family: 'popins',sans-serif;
-    color: #fff;
+    color:-webkit-linear-gradient(to right, #c2e59c, #64b3f4);
+    color: linear-gradient(to right, #c2e59c, #64b3f4);
     letter-spacing: 0.5px;
     outline: none;
     border: none;
