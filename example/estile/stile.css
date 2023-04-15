@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    /*background: #031321;*/
+    /* background: #031321; */
     font-family: consolas;
     background: #031321;
     background: -webkit-linear-gradient(to right, #112652, #28427e);
